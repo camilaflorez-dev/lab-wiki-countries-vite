@@ -26,6 +26,7 @@ function HomePage() {
 
   return (
     <>
+          <h1 className="page-title">LAB | React WikiCountries</h1>
       <h1 className="page-title">WikiCountries: Your Guide to the World</h1>
       <div className="countries-container">
         {countries.map((country) => (
